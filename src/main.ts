@@ -26,6 +26,8 @@ const createWindow = () => {
 app.on("ready", () => {
   updateElectronApp({
     notifyUser: true,
+    updateInterval: "1 hour",
+    logger: require("electron-log"),
   });
 
   createWindow();

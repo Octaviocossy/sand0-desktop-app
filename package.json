@@ -1,7 +1,7 @@
 {
   "name": "sand0-desktop-app",
   "productName": "sand0",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Un lanzador de anuncios increíblemente rápido y totalmente extensible que le permite ver análisis, crear con IA, compartir resultados y mucho más.",
   "repository": {
     "type": "git",
@@ -23,8 +23,8 @@
     "@electron-forge/maker-zip": "^7.4.0",
     "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
     "@electron-forge/plugin-fuses": "^7.4.0",
-    "@electron-forge/publisher-github": "^7.4.0",
     "@electron-forge/plugin-vite": "^7.4.0",
+    "@electron-forge/publisher-github": "^7.4.0",
     "@electron/fuses": "^1.8.0",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
@@ -39,6 +39,7 @@
   "author": "sand0",
   "license": "MIT",
   "dependencies": {
+    "electron-log": "^5.1.2",
     "electron-squirrel-startup": "^1.0.0",
     "update-electron-app": "^3.0.0"
   }
