@@ -3,6 +3,10 @@
   "productName": "sand0",
   "version": "1.0.0",
   "description": "Un lanzador de anuncios increíblemente rápido y totalmente extensible que le permite ver análisis, crear con IA, compartir resultados y mucho más.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Octaviocossy/sand0-desktop-app"
+  },
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
