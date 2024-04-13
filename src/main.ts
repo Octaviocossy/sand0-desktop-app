@@ -1,5 +1,6 @@
 import { app, BrowserWindow } from "electron";
 import { updateElectronApp } from "update-electron-app";
+
 import path from "path";
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -8,7 +9,6 @@ if (require("electron-squirrel-startup")) {
 }
 
 const createWindow = () => {
-  // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 1440,
     height: 900,
@@ -17,12 +17,7 @@ const createWindow = () => {
     icon: path.join(__dirname, "assets", "icon"),
   });
 
-
-  // and load the index.html of the app.
   mainWindow.loadURL("https://sand0.com/dashboard?electron=true");
-
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools();
 };
 
 // This method will be called when Electron has finished
