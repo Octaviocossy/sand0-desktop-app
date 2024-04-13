@@ -1,0 +1,39 @@
+{
+  "name": "sand0",
+  "productName": "sand0",
+  "version": "1.0.0",
+  "description": "Un lanzador de anuncios increíblemente rápido y totalmente extensible que le permite ver análisis, crear con IA, compartir resultados y mucho más.",
+  "main": ".vite/build/main.js",
+  "author": "sand0",
+  "license": "MIT",
+  "repository": "https://github.com/Octaviocossy/sand0-desktop-app",
+  "scripts": {
+    "dev": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx ."
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
+    "@electron-forge/plugin-vite": "^7.2.0",
+    "@electron-forge/publisher-github": "^7.2.0",
+    "@electron-forge/shared-types": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "electron": "28.1.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "ts-node": "^10.9.2",
+    "typescript": "~4.5.4"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "update-electron-app": "^3.0.0"
+  }
+}
