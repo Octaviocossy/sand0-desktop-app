@@ -1,7 +1,6 @@
 import type { ForgeConfig } from "@electron-forge/shared-types";
 import { MakerSquirrel } from "@electron-forge/maker-squirrel";
 import { MakerZIP } from "@electron-forge/maker-zip";
-import { MakerRpm } from "@electron-forge/maker-rpm";
 import { VitePlugin } from "@electron-forge/plugin-vite";
 
 import path from 'path'
@@ -21,7 +20,6 @@ const config: ForgeConfig = {
         "Un lanzador de anuncios increíblemente rápido y totalmente extensible que le permite ver análisis, crear con IA, compartir resultados y mucho más.",
     }),
     new MakerZIP({}, ["darwin"]),
-    new MakerRpm({}),
   ],
   publishers: [
     {
