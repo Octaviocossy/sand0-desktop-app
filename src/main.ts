@@ -13,7 +13,7 @@ const createWindow = () => {
     width: 1440,
     height: 900,
     autoHideMenuBar: true,
-    title: "sand0 - test",
+    title: "sand0 - Una mejor manera de manejar ads",
     icon: path.join(__dirname, "assets", "icon"),
   });
 
