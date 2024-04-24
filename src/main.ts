@@ -20,7 +20,7 @@ const createWindow = () => {
   mainWindow.loadFile("src/loader.html");
 
   setTimeout(() => {
-    mainWindow.loadURL("https://sand0.com/dashboard?electron=true");
+    mainWindow.loadURL("https://sand0.com/dashboard?platform=desktop");
   }, 1000);
 };
 
