@@ -17,7 +17,11 @@ const createWindow = () => {
     icon: path.join(__dirname, "assets", "icon"),
   });
 
-  mainWindow.loadURL("https://sand0.com/dashboard?electron=true");
+  mainWindow.loadFile("src/loader.html");
+
+  setTimeout(() => {
+    mainWindow.loadURL("https://sand0.com/dashboard?electron=true");
+  }, 1000);
 };
 
 // This method will be called when Electron has finished
