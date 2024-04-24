@@ -21,6 +21,7 @@ const createWindow = () => {
 
   setTimeout(() => {
     mainWindow.loadURL("https://sand0.com/dashboard?platform=desktop");
+    // mainWindow.loadURL("http://localhost:3000/dashboard?platform=desktop");
   }, 1000);
 };
 
