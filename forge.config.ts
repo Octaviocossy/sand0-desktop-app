@@ -8,6 +8,7 @@ import path from "path";
 
 const config = {
   packagerConfig: {
+    osxSign: {},
     executableName: "sand0",
     icon: path.join(__dirname, "src", "assets", "icon"),
     asar: true,
